@@ -11,7 +11,7 @@ description: >-
   Source: scripts/generate-security-page.mjs
 -->
 
-_Last updated: 2026-08-24_
+_Last updated: 2026-08-26_
 
 This page lists the security policy and vulnerability reporting channel for each
 active CNCF project. The reporting channel is taken from each project's own
@@ -77,7 +77,7 @@ repository — see the
 | [Agones](https://github.com/agones-dev)                                           | [Security policy](https://github.com/agones-dev/agones/blob/main/.github/SECURITY.md)                       | [GitHub Security Advisory](https://github.com/agones-dev/agones/security/advisories)                                   |
 | [Akri](https://github.com/project-akri)                                           | [Security policy](https://github.com/project-akri/akri/blob/main/SECURITY.md)                               | [cncf-akri-security@lists.cncf.io](mailto:cncf-akri-security@lists.cncf.io)                                            |
 | [Antrea](https://github.com/antrea-io)                                            | [Security policy](https://github.com/antrea-io/antrea/blob/main/SECURITY.md)                                | [cncf-antrea-maintainers@lists.cncf.io](mailto:cncf-antrea-maintainers@lists.cncf.io)                                  |
-| [Apicurio Registry](https://github.com/Apicurio)                                  | [Security policy](https://github.com/Apicurio/apicurio-registry/blob/main/SECURITY.md)                      | [cncf-apicurio-registery-security@lists.cncf.io](mailto:cncf-apicurio-registery-security@lists.cncf.io)                |
+| [Apicurio Registry](https://github.com/Apicurio)                                  | [Security policy](https://github.com/Apicurio/apicurio-registry/blob/main/SECURITY.md)                      | [cncf-apicurio-registry-security@lists.cncf.io](mailto:cncf-apicurio-registry-security@lists.cncf.io)                  |
 | [Armada](https://github.com/armadaproject)                                        | [Security policy](https://github.com/armadaproject/armada/blob/master/SECURITY.md)                          | [GitHub Security Advisory](https://github.com/armadaproject/armada/security/advisories/new)                            |
 | [Athenz](https://github.com/AthenZ)                                               | ⚠️ Missing                                                                                                  | [GitHub Security Advisory](https://github.com/AthenZ/athenz/security/advisories/new)                                   |
 | [Atlantis](https://github.com/runatlantis)                                        | [Security policy](https://github.com/runatlantis/atlantis/blob/main/SECURITY.md)                            | [GitHub Security Advisory](https://github.com/runatlantis/atlantis/security/advisories/new)                            |
