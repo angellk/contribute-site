@@ -11,7 +11,7 @@ description: >-
   Source: scripts/generate-security-page.mjs
 -->
 
-_Last updated: 2026-08-26_
+_Last updated: 2026-08-28_
 
 This page lists the security policy and vulnerability reporting channel for each
 active CNCF project. The reporting channel is taken from each project's own
@@ -192,7 +192,7 @@ repository — see the
 | [PipeCD](https://github.com/pipe-cd)                                              | [Security policy](https://github.com/pipe-cd/pipecd/blob/master/SECURITY.md)                                | [khanhtc1202@gmail.com](mailto:khanhtc1202@gmail.com)                                                                  |
 | [Piraeus Datastore](https://github.com/piraeusdatastore)                          | [Security policy](https://github.com/piraeusdatastore/.project/blob/main/SECURITY.md)                       | [GitHub Security Advisory](https://github.com/piraeusdatastore/piraeus-operator/security/advisories/new)               |
 | [Pixie](https://github.com/pixie-io)                                              | [Security policy](https://github.com/pixie-io/pixie/blob/main/SECURITY.md)                                  | [cncf-pixie-maintainers@lists.cncf.io](mailto:cncf-pixie-maintainers@lists.cncf.io)                                    |
-| [Podman Container Tools](https://github.com/podman-container-tools)               | [Security policy](https://github.com/podman-container-tools/podman/blob/main/SECURITY.md)                   | [security@lists.podman.io](mailto:security@lists.podman.io)                                                            |
+| [Podman Container Tools](https://github.com/podman-container-tools)               | [Security policy](https://github.com/podman-container-tools/community/blob/main/SECURITY.md)                | [security@lists.podman.io](mailto:security@lists.podman.io)                                                            |
 | [Podman Desktop](https://github.com/podman-desktop)                               | [Security policy](https://github.com/podman-desktop/podman-desktop/blob/main/SECURITY.md)                   | [cncf-podman-desktop-security@lists.cncf.io](mailto:cncf-podman-desktop-security@lists.cncf.io)                        |
 | [Porter](https://github.com/getporter)                                            | [Security policy](https://github.com/getporter/porter/blob/main/SECURITY.md)                                | [GitHub Security Advisory](https://github.com/getporter/porter/security/advisories)                                    |
 | [Radius](https://github.com/radius-project)                                       | [Security policy](https://github.com/radius-project/radius/blob/main/SECURITY.md)                           | [security@radapp.dev](mailto:security@radapp.dev)                                                                      |
