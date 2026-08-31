@@ -11,7 +11,7 @@ description: >-
   Source: scripts/generate-security-page.mjs
 -->
 
-_Last updated: 2026-08-29_
+_Last updated: 2026-08-31_
 
 This page lists the security policy and vulnerability reporting channel for each
 active CNCF project. The reporting channel is taken from each project's own
@@ -20,8 +20,8 @@ security policy (`SECURITY.md`), discovered through the project's
 metadata. It supports the CNCF's obligations as an open source steward under the
 [EU Cyber Resilience Act (CRA)](https://eur-lex.europa.eu/eli/reg/2024/2847/oj).
 
-Of the 194 active projects with a `.project` repository: 148 publish a security
-policy and 190 provide a vulnerability reporting channel.
+Of the 200 active projects with a `.project` repository: 153 publish a security
+policy and 196 provide a vulnerability reporting channel.
 
 :::info Report a vulnerability
 
@@ -41,9 +41,14 @@ repository — see the
 
 | Project                                            | Security policy                                                                         | Report a vulnerability                                                                             |
 | -------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| [Argo](https://github.com/argoproj)                | [Security policy](https://github.com/argoproj/argo-workflows/blob/main/SECURITY.md)     | [GitHub Security Advisory](https://github.com/argoproj/argo-workflows/security/advisories/new)     |
 | [Buildpacks](https://github.com/buildpacks)        | [Security policy](https://github.com/buildpacks/.github/blob/main/SECURITY.md)          | [GitHub Security Advisory](https://github.com/buildpacks/community/security/advisories/new)        |
 | [cert-manager](https://github.com/cert-manager)    | [Security policy](https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md) | [cert-manager-security@googlegroups.com](mailto:cert-manager-security@googlegroups.com)            |
+| [Cilium](https://github.com/cilium)                | [Security policy](https://github.com/cilium/cilium/blob/main/SECURITY.md)               | [security@cilium.io](mailto:security@cilium.io)                                                    |
+| [CloudEvents](https://github.com/cloudevents)      | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/cloudevents/spec/security/advisories/new)            |
 | [containerd](https://github.com/containerd)        | [Security policy](https://github.com/containerd/.github/blob/main/SECURITY.md)          | [containerd-security-announce@lists.cncf.io](mailto:containerd-security-announce@lists.cncf.io)    |
+| [CoreDNS](https://github.com/coredns)              | [Security policy](https://github.com/coredns/coredns/blob/master/SECURITY.md)           | [GitHub Security Advisory](https://github.com/coredns/coredns/security/advisories/new)             |
+| [CRI-O](https://github.com/cri-o)                  | [Security policy](https://github.com/cri-o/cri-o/blob/main/SECURITY.md)                 | [cncf-crio-security@lists.cncf.io](mailto:cncf-crio-security@lists.cncf.io)                        |
 | [Crossplane](https://github.com/crossplane)        | [Security policy](https://github.com/crossplane/crossplane/blob/main/SECURITY.md)       | [crossplane-security@lists.cncf.io](mailto:crossplane-security@lists.cncf.io)                      |
 | [Dapr](https://github.com/dapr)                    | [Security policy](https://github.com/dapr/dapr/blob/master/SECURITY.md)                 | [GitHub Security Advisory](https://github.com/dapr/dapr/security/advisories/new)                   |
 | [Dragonfly](https://github.com/dragonflyoss)       | [Security policy](https://github.com/dragonflyoss/dragonfly/blob/main/SECURITY.md)      | [dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com)            |
@@ -68,6 +73,7 @@ repository — see the
 | [Keycloak](https://github.com/keycloak)                     | [Security policy](https://github.com/keycloak/keycloak/blob/main/SECURITY.md)                 | [keycloak-security@googlegroups.com](mailto:keycloak-security@googlegroups.com)                        |
 | [KServe](https://github.com/kserve)                         | [Security policy](https://github.com/kserve/kserve/blob/master/SECURITY.md)                   | [GitHub Security Advisory](https://github.com/kserve/kserve/security/advisories/new)                   |
 | [Kubescape](https://github.com/kubescape)                   | [Security policy](https://github.com/kubescape/project-governance/blob/main/SECURITY.md)      | [GitHub Security Advisory](https://github.com/kubescape/kubescape/security/advisories/new)             |
+| [KubeVela](https://github.com/kubevela)                     | [Security policy](https://github.com/kubevela/kubevela/blob/master/SECURITY.md)               | [security@mail.kubevela.io](mailto:security@mail.kubevela.io)                                          |
 | [KubeVirt](https://github.com/kubevirt)                     | [Security policy](https://github.com/kubevirt/kubevirt/blob/main/SECURITY.md)                 | [cncf-kubevirt-security@lists.cncf.io](mailto:cncf-kubevirt-security@lists.cncf.io)                    |
 | [Lima](https://github.com/lima-vm)                          | [Security policy](https://github.com/lima-vm/.github/blob/main/SECURITY.md)                   | [GitHub Security Advisory](https://github.com/lima-vm/lima/security/advisories/new)                    |
 | [Litmus](https://github.com/litmuschaos)                    | [Security policy](https://github.com/litmuschaos/litmus/blob/master/SECURITY.md)              | [litmuschaos@gmail.com](mailto:litmuschaos@gmail.com)                                                  |
