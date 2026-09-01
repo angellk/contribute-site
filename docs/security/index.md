@@ -11,7 +11,7 @@ description: >-
   Source: scripts/generate-security-page.mjs
 -->
 
-_Last updated: 2026-08-31_
+_Last updated: 2026-09-01_
 
 This page lists the security policy and vulnerability reporting channel for each
 active CNCF project. The reporting channel is taken from each project's own
@@ -20,8 +20,8 @@ security policy (`SECURITY.md`), discovered through the project's
 metadata. It supports the CNCF's obligations as an open source steward under the
 [EU Cyber Resilience Act (CRA)](https://eur-lex.europa.eu/eli/reg/2024/2847/oj).
 
-Of the 200 active projects with a `.project` repository: 153 publish a security
-policy and 196 provide a vulnerability reporting channel.
+Of the 219 active projects with a `.project` repository: 171 publish a security
+policy and 215 provide a vulnerability reporting channel.
 
 :::info Report a vulnerability
 
@@ -39,22 +39,40 @@ repository — see the
 
 ## Graduated
 
-| Project                                            | Security policy                                                                         | Report a vulnerability                                                                             |
-| -------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| [Argo](https://github.com/argoproj)                | [Security policy](https://github.com/argoproj/argo-workflows/blob/main/SECURITY.md)     | [GitHub Security Advisory](https://github.com/argoproj/argo-workflows/security/advisories/new)     |
-| [Buildpacks](https://github.com/buildpacks)        | [Security policy](https://github.com/buildpacks/.github/blob/main/SECURITY.md)          | [GitHub Security Advisory](https://github.com/buildpacks/community/security/advisories/new)        |
-| [cert-manager](https://github.com/cert-manager)    | [Security policy](https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md) | [cert-manager-security@googlegroups.com](mailto:cert-manager-security@googlegroups.com)            |
-| [Cilium](https://github.com/cilium)                | [Security policy](https://github.com/cilium/cilium/blob/main/SECURITY.md)               | [security@cilium.io](mailto:security@cilium.io)                                                    |
-| [CloudEvents](https://github.com/cloudevents)      | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/cloudevents/spec/security/advisories/new)            |
-| [containerd](https://github.com/containerd)        | [Security policy](https://github.com/containerd/.github/blob/main/SECURITY.md)          | [containerd-security-announce@lists.cncf.io](mailto:containerd-security-announce@lists.cncf.io)    |
-| [CoreDNS](https://github.com/coredns)              | [Security policy](https://github.com/coredns/coredns/blob/master/SECURITY.md)           | [GitHub Security Advisory](https://github.com/coredns/coredns/security/advisories/new)             |
-| [CRI-O](https://github.com/cri-o)                  | [Security policy](https://github.com/cri-o/cri-o/blob/main/SECURITY.md)                 | [cncf-crio-security@lists.cncf.io](mailto:cncf-crio-security@lists.cncf.io)                        |
-| [Crossplane](https://github.com/crossplane)        | [Security policy](https://github.com/crossplane/crossplane/blob/main/SECURITY.md)       | [crossplane-security@lists.cncf.io](mailto:crossplane-security@lists.cncf.io)                      |
-| [Dapr](https://github.com/dapr)                    | [Security policy](https://github.com/dapr/dapr/blob/master/SECURITY.md)                 | [GitHub Security Advisory](https://github.com/dapr/dapr/security/advisories/new)                   |
-| [Dragonfly](https://github.com/dragonflyoss)       | [Security policy](https://github.com/dragonflyoss/dragonfly/blob/main/SECURITY.md)      | [dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com)            |
-| [Kubeflow](https://github.com/kubeflow)            | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/kubeflow/kubeflow/security/advisories/new)           |
-| [Kyverno](https://github.com/kyverno)              | [Security policy](https://github.com/kyverno/kyverno/blob/main/SECURITY.md)             | [kyverno-security@googlegroups.com](mailto:kyverno-security@googlegroups.com)                      |
-| [OpenTelemetry](https://github.com/open-telemetry) | [Security policy](https://github.com/open-telemetry/.github/blob/main/SECURITY.md)      | [GitHub Security Advisory](https://github.com/open-telemetry/opentelemetry.io/security/advisories) |
+| Project                                                             | Security policy                                                                         | Report a vulnerability                                                                               |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Argo](https://github.com/argoproj)                                 | [Security policy](https://github.com/argoproj/argo-workflows/blob/main/SECURITY.md)     | [GitHub Security Advisory](https://github.com/argoproj/argo-workflows/security/advisories/new)       |
+| [Buildpacks](https://github.com/buildpacks)                         | [Security policy](https://github.com/buildpacks/.github/blob/main/SECURITY.md)          | [GitHub Security Advisory](https://github.com/buildpacks/community/security/advisories/new)          |
+| [cert-manager](https://github.com/cert-manager)                     | [Security policy](https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md) | [cert-manager-security@googlegroups.com](mailto:cert-manager-security@googlegroups.com)              |
+| [Cilium](https://github.com/cilium)                                 | [Security policy](https://github.com/cilium/cilium/blob/main/SECURITY.md)               | [security@cilium.io](mailto:security@cilium.io)                                                      |
+| [CloudEvents](https://github.com/cloudevents)                       | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/cloudevents/spec/security/advisories/new)              |
+| [containerd](https://github.com/containerd)                         | [Security policy](https://github.com/containerd/.github/blob/main/SECURITY.md)          | [containerd-security-announce@lists.cncf.io](mailto:containerd-security-announce@lists.cncf.io)      |
+| [CoreDNS](https://github.com/coredns)                               | [Security policy](https://github.com/coredns/coredns/blob/master/SECURITY.md)           | [GitHub Security Advisory](https://github.com/coredns/coredns/security/advisories/new)               |
+| [CRI-O](https://github.com/cri-o)                                   | [Security policy](https://github.com/cri-o/cri-o/blob/main/SECURITY.md)                 | [cncf-crio-security@lists.cncf.io](mailto:cncf-crio-security@lists.cncf.io)                          |
+| [Crossplane](https://github.com/crossplane)                         | [Security policy](https://github.com/crossplane/crossplane/blob/main/SECURITY.md)       | [crossplane-security@lists.cncf.io](mailto:crossplane-security@lists.cncf.io)                        |
+| [CubeFS](https://github.com/cubefs)                                 | [Security policy](https://github.com/cubefs/cubefs/blob/master/SECURITY.md)             | [security@cubefs.groups.io](mailto:security@cubefs.groups.io)                                        |
+| [Dapr](https://github.com/dapr)                                     | [Security policy](https://github.com/dapr/dapr/blob/master/SECURITY.md)                 | [GitHub Security Advisory](https://github.com/dapr/dapr/security/advisories/new)                     |
+| [Dragonfly](https://github.com/dragonflyoss)                        | [Security policy](https://github.com/dragonflyoss/dragonfly/blob/main/SECURITY.md)      | [dragonfly-maintainers@googlegroups.com](mailto:dragonfly-maintainers@googlegroups.com)              |
+| [Envoy](https://github.com/envoyproxy)                              | [Security policy](https://github.com/envoyproxy/envoy/blob/main/SECURITY.md)            | [GitHub Security Advisory](https://github.com/envoyproxy/envoy/security/advisories/new)              |
+| [Falco](https://github.com/falcosecurity)                           | [Security policy](https://github.com/falcosecurity/.github/blob/main/SECURITY.md)       | [cncf-falco-maintainers@lists.cncf.io](mailto:cncf-falco-maintainers@lists.cncf.io)                  |
+| [Fluentd](https://github.com/fluent)                                | [Security policy](https://github.com/fluent/fluentd/blob/master/SECURITY.md)            | [GitHub Security Advisory](https://github.com/fluent/fluentd/security/advisories)                    |
+| [Flux](https://github.com/fluxcd)                                   | [Security policy](https://github.com/fluxcd/.github/blob/main/SECURITY.md)              | [cncf-flux-security@lists.cncf.io](mailto:cncf-flux-security@lists.cncf.io)                          |
+| [Harbor](https://github.com/goharbor)                               | [Security policy](https://github.com/goharbor/harbor/blob/main/SECURITY.md)             | [GitHub Security Advisory](https://github.com/goharbor/harbor/security/advisories/new)               |
+| [Helm](https://github.com/helm)                                     | [Security policy](https://github.com/helm/helm/blob/main/SECURITY.md)                   | [cncf-helm-security@lists.cncf.io](mailto:cncf-helm-security@lists.cncf.io)                          |
+| [in-toto](https://github.com/in-toto)                               | [Security policy](https://github.com/in-toto/in-toto/blob/develop/SECURITY.md)          | [GitHub Security Advisory](https://github.com/in-toto/in-toto/security/advisories/new)               |
+| [Istio](https://github.com/istio)                                   | [Security policy](https://github.com/istio/istio/blob/master/.github/SECURITY.md)       | [GitHub Security Advisory](https://github.com/istio/istio/security/advisories/new)                   |
+| [Jaeger](https://github.com/jaegertracing)                          | [Security policy](https://github.com/jaegertracing/jaeger/blob/main/SECURITY.md)        | [GitHub Security Advisory](https://github.com/jaegertracing/jaeger/security/advisories)              |
+| [KEDA](https://github.com/kedacore)                                 | [Security policy](https://github.com/kedacore/keda/blob/main/SECURITY.md)               | [cncf-keda-maintainers@lists.cncf.io](mailto:cncf-keda-maintainers@lists.cncf.io)                    |
+| [KubeEdge](https://github.com/kubeedge)                             | [Security policy](https://github.com/kubeedge/kubeedge/blob/master/.github/SECURITY.md) | [cncf-kubeedge-security@lists.cncf.io](mailto:cncf-kubeedge-security@lists.cncf.io)                  |
+| [Kubeflow](https://github.com/kubeflow)                             | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/kubeflow/kubeflow/security/advisories/new)             |
+| [Kyverno](https://github.com/kyverno)                               | [Security policy](https://github.com/kyverno/kyverno/blob/main/SECURITY.md)             | [kyverno-security@googlegroups.com](mailto:kyverno-security@googlegroups.com)                        |
+| [Open Policy Agent (OPA)](https://github.com/open-policy-agent)     | [Security policy](https://github.com/open-policy-agent/opa/blob/main/SECURITY.md)       | [GitHub Security Advisory](https://github.com/open-policy-agent/opa/security/advisories/new)         |
+| [OpenTelemetry](https://github.com/open-telemetry)                  | [Security policy](https://github.com/open-telemetry/.github/blob/main/SECURITY.md)      | [GitHub Security Advisory](https://github.com/open-telemetry/opentelemetry.io/security/advisories)   |
+| [Rook](https://github.com/rook)                                     | [Security policy](https://github.com/rook/rook/blob/master/SECURITY.md)                 | [cncf-rook-security@lists.cncf.io](mailto:cncf-rook-security@lists.cncf.io)                          |
+| [SPIFFE](https://github.com/spiffe)                                 | [Security policy](https://github.com/spiffe/spire/blob/main/SECURITY.md)                | [security@spiffe.io](mailto:security@spiffe.io)                                                      |
+| [The Update Framework (TUF)](https://github.com/theupdateframework) | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/theupdateframework/python-tuf/security/advisories/new) |
+| [TiKV](https://github.com/tikv)                                     | [Security policy](https://github.com/tikv/tikv/blob/master/SECURITY.md)                 | [tikv-security@lists.cncf.io](mailto:tikv-security@lists.cncf.io)                                    |
+| [Vitess](https://github.com/vitessio)                               | [Security policy](https://github.com/vitessio/vitess/blob/main/SECURITY.md)             | [cncf-vitess-maintainers@lists.cncf.io](mailto:cncf-vitess-maintainers@lists.cncf.io)                |
 
 ## Incubating
 
@@ -65,6 +83,7 @@ repository — see the
 | [Chaos Mesh](https://github.com/chaos-mesh)                 | [Security policy](https://github.com/chaos-mesh/chaos-mesh/blob/master/SECURITY.md)           | [chaos-mesh-security@lists.cncf.io](mailto:chaos-mesh-security@lists.cncf.io)                          |
 | [Cloud Custodian](https://github.com/cloud-custodian)       | [Security policy](https://github.com/cloud-custodian/cloud-custodian/blob/main/SECURITY.md)   | [security@cloudcustodian.io](mailto:security@cloudcustodian.io)                                        |
 | [Contour](https://github.com/projectcontour)                | [Security policy](https://github.com/projectcontour/contour/blob/main/SECURITY.md)            | [GitHub Security Advisory](https://github.com/projectcontour/contour/security/advisories/new)          |
+| [Cortex](https://github.com/cortexproject)                  | [Security policy](https://github.com/cortexproject/cortex/blob/master/SECURITY.md)            | [cortex-team@googlegroups.com](mailto:cortex-team@googlegroups.com)                                    |
 | [Emissary-Ingress](https://github.com/emissary-ingress)     | ⚠️ Missing                                                                                    | [GitHub Security Advisory](https://github.com/emissary-ingress/emissary/security/advisories/new)       |
 | [Flatcar Container Linux](https://github.com/flatcar)       | [Security policy](https://github.com/flatcar/scripts/blob/main/SECURITY.md)                   | [security@flatcar-linux.org](mailto:security@flatcar-linux.org)                                        |
 | [Fluid](https://github.com/fluid-cloudnative)               | [Security policy](https://github.com/fluid-cloudnative/fluid/blob/master/SECURITY.md)         | [fluid.opensource.project@gmail.com](mailto:fluid.opensource.project@gmail.com)                        |
