@@ -11,7 +11,7 @@ description: >-
   Source: scripts/generate-security-page.mjs
 -->
 
-_Last updated: 2026-09-01_
+_Last updated: 2026-09-02_
 
 This page lists the security policy and vulnerability reporting channel for each
 active CNCF project. The reporting channel is taken from each project's own
@@ -20,7 +20,7 @@ security policy (`SECURITY.md`), discovered through the project's
 metadata. It supports the CNCF's obligations as an open source steward under the
 [EU Cyber Resilience Act (CRA)](https://eur-lex.europa.eu/eli/reg/2024/2847/oj).
 
-Of the 219 active projects with a `.project` repository: 171 publish a security
+Of the 219 active projects with a `.project` repository: 172 publish a security
 policy and 215 provide a vulnerability reporting channel.
 
 :::info Report a vulnerability
@@ -45,7 +45,7 @@ repository — see the
 | [Buildpacks](https://github.com/buildpacks)                         | [Security policy](https://github.com/buildpacks/.github/blob/main/SECURITY.md)          | [GitHub Security Advisory](https://github.com/buildpacks/community/security/advisories/new)          |
 | [cert-manager](https://github.com/cert-manager)                     | [Security policy](https://github.com/cert-manager/cert-manager/blob/master/SECURITY.md) | [cert-manager-security@googlegroups.com](mailto:cert-manager-security@googlegroups.com)              |
 | [Cilium](https://github.com/cilium)                                 | [Security policy](https://github.com/cilium/cilium/blob/main/SECURITY.md)               | [security@cilium.io](mailto:security@cilium.io)                                                      |
-| [CloudEvents](https://github.com/cloudevents)                       | ⚠️ Missing                                                                              | [GitHub Security Advisory](https://github.com/cloudevents/spec/security/advisories/new)              |
+| [CloudEvents](https://github.com/cloudevents)                       | [Security policy](https://github.com/cloudevents/spec#security-concerns)                | [cncf-cloudevents-security@lists.cncf.io](mailto:cncf-cloudevents-security@lists.cncf.io)            |
 | [containerd](https://github.com/containerd)                         | [Security policy](https://github.com/containerd/.github/blob/main/SECURITY.md)          | [containerd-security-announce@lists.cncf.io](mailto:containerd-security-announce@lists.cncf.io)      |
 | [CoreDNS](https://github.com/coredns)                               | [Security policy](https://github.com/coredns/coredns/blob/master/SECURITY.md)           | [GitHub Security Advisory](https://github.com/coredns/coredns/security/advisories/new)               |
 | [CRI-O](https://github.com/cri-o)                                   | [Security policy](https://github.com/cri-o/cri-o/blob/main/SECURITY.md)                 | [cncf-crio-security@lists.cncf.io](mailto:cncf-crio-security@lists.cncf.io)                          |
